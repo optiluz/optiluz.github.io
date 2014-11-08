@@ -1,0 +1,606 @@
+@charset "utf-8";
+html, body {
+	margin:0;
+	padding:0;
+}
+#header {
+	background-color:#FFF;
+	height: 150px;
+	width: 100%;
+	position:relative;
+	z-index:30;
+	box-shadow: 0px 3px 5px #000;
+	-moz-box-shadow:0px 3px 5px #000;
+	-webkit-box-shadow:0px 3px 3px #000;
+}
+#logo {
+	background-image: url(../images/logo.png);
+	height: 150px;
+	width: 410px;
+	float:left;
+}
+#derecha {
+	background-color: #FFF;
+	height: 150px;
+	width: 700px;
+	float:right;
+}
+#datos {
+	width: 360px;
+	float:left;
+	margin-left:-130px;
+	margin-top:50px;
+}
+#ojos {
+	background-image: url(../images/ojos.png);
+	height: 150px;
+	width: 386px;
+	float:right;
+}
+#slogan {
+	color:#005e9e;
+	font-size:18px;
+}
+#slogan2 {
+	color:#ffffff;
+	font-size:18px;
+	position:relative;
+	top:180px;
+	margin-left:30%;
+
+}
+#contenedor_menu {
+	background-color: #fff;
+	height: 53px;
+	width: 100%;
+	margin-top:-5px;
+	position:relative;
+	z-index:20;
+	border-style:solid;
+	border-width:1px;
+	border-color:#003679;
+}
+#margen_menu {
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3px;
+}
+#cssmenu ul {
+	margin: 0;
+	padding: 6px 6px 0;
+	background: #ffffff url(overlay.png) repeat-x 0 -110px;
+	line-height: 100%;
+	border-radius: 1em;
+	font: normal .8em/1.5em Arial, Helvetica, sans-serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+#cssmenu li {
+	margin: 0 5px;
+	padding: 0 0 8px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+#cssmenu a, #cssmenu a:link {
+	font-weight: bold;
+	color: #004d8f;
+	text-decoration: none;
+	display: block;
+	padding:  8px 16px;
+	margin: 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-shadow: 0 1px 1px rgba(0,0,0, .3);
+}
+#cssmenu a:hover {
+	background: #fff;
+	color: #fff;
+}
+#cssmenu .active a, #cssmenu li:hover > a {
+	background: #004d8e url(overlay.png) repeat-x 0 -40px;
+	color: #fff;
+	border-top: solid 1px #f8f8f8;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	text-shadow: 0 1px 0 rgba(255,255,255, 1);
+}
+#cssmenu ul ul li:hover a, #cssmenu li:hover li a {
+	background: none;
+	border: none;
+	color: #fff;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#cssmenu ul ul a:hover {
+	background: #8f8f8f url(overlay.png) repeat-x 0 -100px !important;
+	color: #fff !important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-shadow: 0 1px 1px rgba(0,0,0, .1);
+}
+#cssmenu li:hover > ul {
+	display: block;
+}
+#cssmenu ul ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 185px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	background: #688ba3 url(overlay.png) repeat-x 0 0;
+	border: solid 1px #b4b4b4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .3);
+	box-shadow: 0 1px 3px rgba(0,0,0, .3);
+}
+#cssmenu ul ul li {
+	float: none;
+	margin: 0;
+	padding: 3px;
+}
+#cssmenu ul ul a {
+	font-weight: normal;
+	text-shadow: 0 1px 0 #fff;
+}
+#cssmenu ul:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+* html #cssmenu ul {
+	height: 1%;
+}
+#azul {
+	background-color: #0064a2;
+	height: 200px;
+	width: 100%;
+}
+#azul2 {
+	background-color: #0064a2;
+	height: 200px;
+	width: 100%;
+	margin-top:-19px;
+}
+#azul3 {
+	background-color: #0064a2;
+	height: 200px;
+	width: 100%;
+	position:relative;
+	top:0px;
+}
+#contenedor_slider {
+	background-color:#CCC;
+	height: 100px;
+	width: 980px;
+	position:relative;
+	z-index:0;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:20px;
+}
+#indigo {
+	background-color: #010b50;
+	height: 250px;
+	width: 100%;
+	margin-top:-12px;
+}
+#indigo2 {
+	background-color: #010b50;
+	height: 250px;
+	width: 100%;
+	position:relative;
+	top:-1462px;
+}
+#indigo3 {
+	background-color: #010b50;
+	height: 250px;
+	width: 100%;
+	position:relative;
+	top:-732px;
+}
+#slogan {
+	width: 500px;
+}
+#gris{
+	background-color:#f1f1f1;
+	width:100%;
+	height:300px;
+	position:relative;
+	z-index:5;
+}
+#gris2{
+	background-color:#f1f1f1;
+	width:100%;
+	height:300px;
+	position:relative;
+	top:-1460px;
+	z-index:5;
+}
+#gris3{
+	background-color:#f1f1f1;
+	width:100%;
+	height:300px;
+	position:relative;
+	top:-733px;
+	z-index:5;
+}
+#medio {
+	height: 150px;
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	z-index:11;
+	top:-330px;
+}
+#izquierda {
+	background-color: #FFF;
+	height: 400px;
+	width: 470px;
+	float:left;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+#derechas {
+	background-color: #FFF;
+	height: 400px;
+	width: 470px;
+	float:right;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+
+
+#fotoleft {
+	background-image: url(../images/optometria_en-_cali.jpg);
+	height: 250px;
+	width: 400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+#fotoleft2 {
+	background-image: url(../images/optica_infantil.jpg);
+	height: 250px;
+	width: 400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+#textoleft {
+	height: 50px;
+	width: 400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:justify;
+	color: rgb(129, 129, 129);
+	line-height:17px;
+}
+#intro {
+	height: auto;
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:-310px;
+	color: rgb(129, 129, 129);
+	text-align:justify;
+}
+
+
+
+#fotoright {
+	background-image: url(../images/optica_en-_cali.jpg);
+	height: 250px;
+	width: 400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+#fotoright2 {
+	background-image: url(../images/optometria_en_cali.jpg);
+	height: 250px;
+	width: 400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+
+
+#textoright {
+	height: 50px;
+	width: 400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:justify;
+	color: rgb(129, 129, 129);
+	line-height:17px;
+}
+#datos_footer {
+	width: 600px;
+}
+
+#azul_footer {
+	background-color: #0064a2;
+	height: 50px;
+	width: 100%;
+	margin-top:-270px;
+}
+#azul_footer2 {
+	background-color: #0064a2;
+	height: 50px;
+	width: 100%;
+	margin-top:-500px;
+}
+#menu2 {
+	width:900px;
+	position:relative;
+	top:20px;
+	margin-left:85px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+#button li {
+display: inline;
+
+}
+#button li a {
+font-family: Helvetica, Arial, Verdana, sans-serif;
+font-size:14px;
+text-decoration: none;
+padding: 10px;
+color: #ffffff;
+}
+#footer {
+	background-color: #010b50;
+	height: 30px;
+	width: 100%;
+}
+#datos_footer{
+	width:600px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2px;
+	color:#fff;
+}
+
+#contenedor {
+	background-color: #FFF;
+	height: 1650px;
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	z-index:10;
+	top:30px;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+#contenedor_miopia {
+	background-color: #FFF;
+	height: 920px;
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	z-index:10;
+	top:30px;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+#contenedor2 {
+	background-color: #FFF;
+	height: 1050px;
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	z-index:10;
+	top:30px;
+	
+	border-radius:5px;
+	box-shadow: 0px 5px 10px #000;
+	
+	-moz-border-radius:5px;
+	-moz-box-shadow:0px 5px 10px #000;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 5px 10px #000;
+}
+#marcas {
+	height: 250px;
+	width: 950px;
+	position:relative;
+	top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	
+	box-shadow: 0px 3px 5px #000;
+	-moz-box-shadow:0px 3px 5px #000;
+	-webkit-box-shadow:0px 3px 3px #000;
+}
+#gafas {
+	height: 280px;
+	width: 950px;
+	position:relative;
+	top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	
+	box-shadow: 0px 3px 5px #000;
+	-moz-box-shadow:0px 3px 5px #000;
+	-webkit-box-shadow:0px 3px 3px #000;
+}
+#gafas2 {
+	height: 880px;
+	width: 950px;
+	position:relative;
+	top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	
+	box-shadow: 0px 3px 5px #000;
+	-moz-box-shadow:0px 3px 5px #000;
+	-webkit-box-shadow:0px 3px 3px #000;
+}
+#logomarca {
+	height: 200px;
+	width: 250px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	
+}
+#imagafa {
+	height: 200px;
+	width: 250px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	
+}
+#infomarcas {
+	color:#818181;
+	height: 200px;
+	width: 600px;
+	float:right;
+	margin-right:20px;
+	margin-top:40px;
+	text-align:justify;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	overflow:auto;
+
+	
+}
+#miopia {
+	height:1200px;
+	width: 900px;
+	position:relative;
+	top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#818181;
+	text-align:justify;
+	
+}
+#texto_info {
+	height: auto;
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#818181;
+	text-align:justify;
+}
+
+#infogafas {
+	color:#818181;
+	height: 200px;
+	width: 600px;
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	text-align:justify;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	
+}
+#infogafas2 {
+	color:#818181;
+	height: 500px;
+	width: 850px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	top:30px;
+	text-align:justify;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	
+}
+
